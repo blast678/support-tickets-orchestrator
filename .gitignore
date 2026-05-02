@@ -3,7 +3,7 @@
 .env.local
 *.pem
 *.key
-
+data\__pycache__
 # deps
 node_modules/
 .pnpm-store/
@@ -14,7 +14,7 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-
+.env
 # build
 dist/
 build/
